@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História nas Estrelas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">
+                ❤️ Nossa História
+            </a>
+            <nav id="nav">
+                <a href="#" data-page="home" class="nav-link active">Início</a>
+                <a href="#" data-page="timeline" class="nav-link">Nossa História</a>
+                <a href="#" data-page="gallery" class="nav-link">Galeria</a>
+                <a href="#" data-page="testimonials" class="nav-link">Depoimentos</a>
+
+            </nav>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <div class="page active" id="home">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="hero-icon">💜</div>
+                    <h1>Nossa História</h1>
+                    <h2>Escrita nas Estrelas</h2>
+                    <p>Estamos só no começo do nosso namoro, mas o nosso amor floresce cada vez mais todos os dias e
+                        ainda tem muito mais a florescer. Por agora vamos relembrar um pouquinho da nossa história, meu
+                        bem .</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="navigateTo('timeline')">❤️ Nossa História</button>
+                        <button class="btn btn-secondary" onclick="navigateTo('gallery')">✨ Galeria</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timeline Page -->
+        <div class="page" id="timeline">
+            <div class="container">
+                <div class="timeline-section">
+                    <h1 class="section-title">Nossa Linha do Tempo</h1>
+                    <p style="text-align: center; color: #e0d5ff; margin-bottom: 3rem;">Cada momento que vivemos juntos
+                        é uma constelação em nosso universo particular</p>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot">❤️</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"> 04/11/2025</div>
+                                <div class="timeline-title">Nosso Primeiro Beijo </div>
+                                <div class="timeline-description">Não foi de longe o nosso melhor beijo kkk, mas lembrar
+                                    de toda aquela situação engraçada em que ele aconteceu a forma como ambos estavam
+                                    nervosos , sempre me trás um sorriso e a sensação leve e divertida que vc sempre me
+                                    trás.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">⭐</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">17/11/2025</div>
+                                <div class="timeline-title">A Sua Declaração</div>
+                                <div class="timeline-description">Ainda lembro do seu nervosismo nesse dia , a mão e voz
+                                    trêmulas lendo a carta que vc fez para mim que continha tanto amor , e mesmo assim
+                                    não é um terço do amor que eu sei que vc tem por mim , eu ainda n sabia naquele
+                                    momento mas escolher te amar seria umas das melhores coisas que eu fiz na vida.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">❤️</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">29/11/2025</div>
+                                <div class="timeline-title">Nosso 1° encontro</div>
+                                <div class="timeline-description"> Ainda lembro a ansiedade e o nervosismo que senti a
+                                    casa minuto que passava até a hora de sairmos naquele dia. O dia que foi também a 1ª
+                                    vez que vc disse que me amava . Nunca esquecerei esse dia tão importante para nós.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">⭐</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"></div>
+                                <div class="timeline-title">As Serenatas</div>
+                                <div class="timeline-description">Nunca vou me esquecer da forma como a escola inteira
+                                    viu aquele momento kkkkkk , mas saiba que eu adoro quando vc demonstra o seu amor
+                                    atrás da música ( uma das suas melhores maneiras de se expressar) . Mas a que sempre
+                                    estará marcada na minha memória será aquela 1ª serenata que vc fez , mesmo estando
+                                    só nós dois, foi um dos momentos mais lindos do nosso amor.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">❤️</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"> 07/04</div>
+                                <div class="timeline-title">O seu aniversário</div>
+                                <div class="timeline-description">Eu nunca te disse ms nesse dia eu me apaixonei mais
+                                    uma vez por você, a forma como vc se abriu comigo depois desse dia que foi a 1ª vez
+                                    em muito tempo que vc comemorou seu aniversário sempre estará nas minhas lembranças
+                                    mais especiais, e eu amo ter feito parte desse momento da sua vida.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">❤️</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"> </div>
+                                <div class="timeline-title">O pedido de namoro</div>
+                                <div class="timeline-description">Amo casa detalhe que vc colocou nesse pedido, os
+                                    detalhes da Rapunzel ,as alianças simplesmente tudo foi incrível, eu te amo.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">⭐</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"> </div>
+                                <div class="timeline-title">O nosso 1° mês</div>
+                                <div class="timeline-description">A nossa conversa nesse dia foi muito especial para mim
+                                    , você ter se aberto pra mim sobre algo tão íntimo seu realmente mexeu comigo.
+                                    Sempre que sinto saudades eu abro aquele colar que você me deu com nossa foto e
+                                    sinto o seu carinho. Esse foi só o 1° dos infinitos que virão.</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div
+                        style="text-align: center; margin-top: 3rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(147, 51, 234, 0.2); border-radius: 1rem; padding: 2rem;">
+                        <p style="color: #e0d5ff; font-size: 1.125rem; margin-bottom: 1rem;">E a história continua...
+                            cada dia é um novo capítulo em nossa jornada.</p>
+                        <div style="display: flex; justify-content: center; gap: 0.5rem;">
+                            <span style="font-size: 1.5rem;">❤️</span>
+                            <span style="font-size: 1.5rem;">⭐</span>
+                            <span style="font-size: 1.5rem;">❤️</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Page -->
+        <div class="page" id="gallery">
+            <div class="container">
+                <div class="timeline-section">
+                    <h1 class="section-title">Galeria de Memórias</h1>
+                    <p style="text-align: center; color: #e0d5ff; margin-bottom: 2rem;">Cada foto é um momento congelado
+                        no tempo, um fragmento de nosso amor infinito</p>
+
+
+
+                    <div class="gallery-grid" id="galleryGrid">
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto1.jpeg" alt="seu primeiro aniversário">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">seu primeiro aniversário</div>
+                                <div class="gallery-description"> esse dia foi incrível, lembro até hoje que quase não
+                                    chegava na escola comprando o último presente.</div>
+                            </div>
+                        </div>
+
+
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto2.jpeg" alt="Viagem Mágica">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">1 Beijo</div>
+                                <div class="gallery-description"> o pessoal é tão fã nosso que tiram até fotos sem a
+                                    gente saber.</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto3.jpeg" alt="Noite Estrelada">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">Primeiro Role</div>
+                                <div class="gallery-description">você tava taooooo linda nesse dia (ainda tá, garota
+                                    lindaaa meu Deusss) fiquei tão feliz de sair com você</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto4.jpeg" alt="Aventura Urbana">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">pós catapora</div>
+                                <div class="gallery-description">tinha acabado de sair de uma quase morte e tava
+                                    morrendo de saudade de você</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto5.jpeg" alt="Abraço Especial">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">Nosso filho </div>
+                                <div class="gallery-description">nosso filho que morreu tão jovem 😞🙌</div>
+                            </div>
+                        </div>
+
+
+                        <div class="gallery-item" data-category="travels" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto6.jpeg" alt="Descrição">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">Medalhaaa</div>
+                                <div class="gallery-description">Esse dia a gente ganhou todo o resultado do nosso
+                                    esforço e olha seus olhinhos</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Namoro</div>
+                            <div class="gallery-description">O dia mais especial da minha vida, onde a gente começou
+                                a um ano atrás</div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Testimonials Page -->
+        <div class="page" id="testimonials">
+            <div class="container">
+                <div class="timeline-section">
+                    <h1 class="section-title">Palavras do Coração</h1>
+                    <p style="text-align: center; color: #e0d5ff; margin-bottom: 3rem;">Mensagens sinceras que expressam
+                        todo meu amor</p>
+
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Amo o seu abraço e o seu cheiro que me conforta</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">Adrya</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Sempre me pego  olhando para cada cartinha que você me dá.</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">Adrya</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Ver você feliz é uma das minhas maiores alegrias 
+
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">João</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text"> Por mais que você duvide kkkkkk, o seu beijo é um dos meus maiores vícios
+.</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">Adrya</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text"> Adoro o jeito como você cuida de mim 
+.</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">Adrya</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">* Eu te amo hoje , amanhã e sempre ( muito mais do que você imagina).</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">Adrya</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style="text-align: center; margin-top: 3rem; background: linear-gradient(to right, rgba(168, 85, 247, 0.1), rgba(217, 70, 239, 0.1)); border: 1px solid rgba(147, 51, 234, 0.3); border-radius: 1rem; padding: 2rem;">
+                        <h2 style="font-size: 1.75rem; color: #d8b4fe; margin-bottom: 1rem;">Palavras do Coração</h2>
+                        <p style="color: #e0d5ff; line-height: 1.6; margin-bottom: 1rem;">Feliz dia dos namorados meu amor, faz pouco mais de um mês que oficializamos o nosso namoro e assim como cada fase que vivemos até agora , tem sido incrível, até mesmo nos dias mais chatos em que talvez por causa da rotina nos vemos mais afastados. Espero que saiba o quanto eu te amo, e por mais que você brinque de eu ter um coração de pedra kkkkkk , decidi mostras através desse site , um pouco desse amor que sinto por você, onde cada memória que viemos construindo juntos alimenta ainda mais esse sentimento. Eu não vejo a hora de criarmos memórias ainda mais inesquecíveis, quando tivermos mais liberdade, vivendo uma vida mais adulta , na faculdade, trabalhando....Quero conhecer e fazer parte de cada versão sua , assim como você também fará parte da minha.Esse é só o começo da nossa trajetória, que sempre será composta de muito amor , parceria e compreensão, como já te sido todo esse tempo. Eu te amo meu amor ❤️</p>
+                        <div style="display: flex; justify-content: center; gap: 1rem;">
+                            <span style="font-size: 2rem;">💕</span>
+                            <span style="font-size: 2rem;">✨</span>
+                            <span style="font-size: 2rem;">🌟</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div style="text-align: center; margin-top: 2rem;">
+            <p style="color: #e0d5ff; font-size: 1.125rem;">Obrigado por fazer parte de nossa história! 💕
+            </p>
+        </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <div id="modalTitle" style="font-size: 1.25rem; color: #d8b4fe; margin-bottom: 0.5rem;"></div>
+            <div id="modalDescription" style="color: #e0d5ff;"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>❤️ Nossa História</h3>
+                    <p>Uma celebração do amor eterno, escrito nas estrelas e vivido a cada dia.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a
+                href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.nytimes.com%2F2025%2F06%2F09%2Fscience%2Fsauropod-dinosaur-fossils-vegetarians.html&ved=0CBYQjRxqFwoTCNCsnM20gJUDFQAAAAAdAAAAABA8&opi=89978449S">©
+                2026 Nossa História nas Estrelas. Feito com ❤️ para celebrar o amor infinito.</a>
+            <p>Todos direitos reservados a Gabriel Gomes</p>
+        </div>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
